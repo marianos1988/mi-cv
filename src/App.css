@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

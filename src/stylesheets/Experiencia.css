@@ -1,0 +1,61 @@
+.container-experiencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  animation: aparecer .5s ease-in;
+}
+
+.container-experiencia h2 {
+  
+  font-size: 55px;
+  font-family:  'anton',sans-serif;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.bloque:first-child {
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 3px double blue;
+  border-bottom: 3px double blue;
+}
+
+.periodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.container-detalle-experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.detalle-experiencia {
+  padding: 15px;
+}
+
+.empresa {
+  color: rgb(26, 179, 206);
+  padding: 15px;
+} 
+
+@keyframes aparecer {
+  
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}

@@ -1,0 +1,30 @@
+.container-aside {
+    max-width: 300px;
+    min-width: 180px;
+
+    background-color: whitesmoke;
+}
+
+.container-objetives {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-objetives {
+    padding-top: 5px;
+    color: black;
+    font-family:  'anton',sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text-objetives {
+    padding: 15px;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+

@@ -1,0 +1,50 @@
+.container-header {
+    display: flex;
+    max-width: 100%;
+    min-width: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.3169642857142857) 0%, rgba(0,212,255,1) 100%);
+}
+ 
+.container-datos-perfil h1 {
+
+    font-size: 45px;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 5px 0 5px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.container-img-info {
+    
+    display: flex;
+
+}
+
+.img {
+    padding-top: 30px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateY(-10px);
+}
+
+.container-datos-perfil {
+    padding: 15px;
+}
+
+.datos-perfil {
+    margin-top: 8px;
+    font-size: 20px;
+    
+}
+.ico-linkedin {
+    transform: translateY(8px);
+    font-size: 30px;
+}
+.redes {
+    font-size: 20px;
+
+}
